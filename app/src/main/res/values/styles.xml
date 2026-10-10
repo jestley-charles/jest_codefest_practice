@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomCardView" parent="Widget.Material3.CardView.Outlined">
+        <item name="android:focusable">true</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="rippleColor">@color/black</item>
+        <item name="strokeColor">@color/gray</item>
+    </style>
+    <style name="CustomCardViewLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingTop">4dp</item>
+    </style>
+</resources>
